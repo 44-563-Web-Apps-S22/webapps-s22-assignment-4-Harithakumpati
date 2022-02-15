@@ -1,24 +1,75 @@
-.speech{
+h6{
     font-size: 18px;
-    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
 }
-.direction {
+p{
     font-size: 16px;
-    color: black;
-    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
 }
-.name{
-    font-size: 14px;
-    color: black;
+p.speech{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
 }
-p:hover{
-    background-color: brown;
-    color: white;
+p.direction{
+    background-color: lightblue;
+}
+p.direction:hover{
+    background-color: tomato;
+    color: blue;
+}
+h6.name:hover{
+    text-shadow: 3px 3px 2px yellow;
+    border: 1px solid black;
+}
+h6.DORANTE{
+    color: green;
+}
+h6.COVIELLE{
+    color: blue;
+}
+h6.Damis{
+    color:red;
 }
 
-.DORANTE{
-    color: violet;
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
 }
-.COVIELLE{
-    color:blue;
+td, th{
+    border:1px solid black;
+    text-align: left;
+    padding: 25px 15px;
+    margin: 15px 15px;
 }
+tr:nth-child(even){
+    background-color: rgb(188, 219, 77);
+    }
+tr:nth-child(odd){
+background-color: rgb(212, 71, 71);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: coral;
+  }
